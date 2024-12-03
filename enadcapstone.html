@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CAMPUSBUZZ</title>
+    <style>
+        body {
+            background-color: #97BCD7;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #BFD4DB;
+            height: 12	0px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            position: sticky;
+            top: 0px;
+            padding: 0px 20px;
+            z-index: 2;
+        }
+        #head {
+            font-family: Monaco;
+            font-size: 30px;
+            margin-left: 10px;
+            color: #001a47;
+        }
+        #logo {
+            height: 150px;
+            width: 150px;
+            margin: 10px 0px 0px 60px;
+        }
+        ul {
+            list-style-type: none;
+            font-size: 25px;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            margin-left: auto;
+        }
+        li {
+            color: black;
+            display: inline-flex;
+            letter-spacing: 2px;
+            padding: 0 15px;
+            font-family: Helvetica;
+        }
+        li:hover {
+            color: white;
+            font-weight: bold;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        a:hover {
+            color: white;
+        }
+         .input-field {
+            width: 200px;
+            height: 60px;
+            padding: 10px 0px;
+            margin: 10px 0px 0px 1000px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            box-sizing: border-box;
+        }
+
+        .input-field:focus {
+            border-color: #BFD4DB;
+        }
+        .calendar{
+        	background-color: whitesmoke;
+        	height: 397px;
+        	width: 557px;
+        }
+        .funds{
+        	background-color: lightblue;
+        	height: 150px;
+        	width: 560px;
+        	border-radius: 50px;
+        	text-align: center;
+        	margin: -420px 0px 0px 1500px;
+        }  
+        #money{
+        	color: white;
+        	font-family: monospace;
+        	font-size: 50px;
+        }
+        #fund{
+        	color: white;
+        	font-size: 30px;
+        	font-family: arial;
+        }
+        .plans{
+        	background-color: lightblue;
+        	height: 400px;
+        	width: 850px;
+        	margin: -180px 0px 0px 610px;;
+        	border-radius: 50px;
+        }
+        #ganaps{
+        	color: white;
+        	text-align: center;
+        	font-family: monospace;
+        	font-size: 50px;
+        }
+        #ganap{
+        	color: white;
+        	text-align: center;
+        	font-size: 30px;
+        }
+        .graph{
+        	margin: -240px 0px 0px 1500px;
+        }
+    </style>
+</head>
+<body>  
+    <div class="header">
+        <img src="campusbuzzlogo.png" id="logo" alt="CAMPUSBUZZ Logo">
+        <a href="enadcapstone.html"></a>
+        <h1 id="head">CAMPUSBUZZ</h1>
+
+        <input type="text" class="input-field" placeholder="Search..." required>
+
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="index.html">Log In</a></li>
+        </ul>
+    </div>
+    <div class="calendar">
+    	<img src="cal.png">
+    </div>
+    <div class="funds">
+    	<h1 id="money">ORG FUNDS</h1>
+    	<p id="fund">₱3,089</p>
+    </div>
+	
+    <div class="plans">
+    	<h1 id="ganaps">ACTIVITIES THIS MONTH</h1>
+    	<p id="ganap">Dec 4 - Recruiting<br>Dec 9 - Meeting</p>
+    </div>
+	<div class="graph">
+	<img src="graph.jpg">	
+	</div>    
+    </script>
+</body>
+</html>
